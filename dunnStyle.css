@@ -1,57 +1,86 @@
 /* Add a black background color to the top navigation */
 .topNavBar {
-    background-color:rgb(2, 2, 127);
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topNavBar a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topNavBar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topNavBar a.active {
-    background-color: orange;
-    color: white;
-  }
-  .topName{
-    text-align: center;
-    color: black;
-    font-size: 35px;
-  }
-  
-  
-  .pageBody{
-    font: bold;
-    font-size: 20;
-  }
-
-
-  .loFoot{
-background-color: aqua;
-text-align: center;
-bottom: 0;
-left: 0;
-position:;
-  }
-.allResume{
-
-
-
+  background-color: rgb(2, 2, 127);
+  overflow: hidden;
 }
-.pdfResume{
-width: 100%;
-height: 975px;
 
+/* Style the links inside the navigation bar */
+.topNavBar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topNavBar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topNavBar a.active {
+  background-color: orange;
+  color: white;
+}
+.topName {
+  text-align: center;
+  color: antiquewhite;
+  font-size: 85px;
+}
+
+.pageBody {
+  font: bold;
+  font-size: 20;
+}
+
+.loFoot {
+  background-color: purple;
+  position: relative;
+  margin-top: 200px;
+  clear: both;
+  color: antiquewhite;
+}
+
+.pdfResume {
+  width: 100%;
+  height: 975px;
+}
+.profilePic {
+  width: 300px;
+  height: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+body {
+  background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/detroit-lions-steven-parker.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutMeInfo {
+  background-color: rgb(204, 204, 10);
+  width: auto;
+  height: auto;
+  border: 15 px solid red;
+  padding: 10px;
+  margin: 20px;
+}
+
+h2 {
+  color: antiquewhite;
+}
+p {
+  color: antiquewhite;
+}
+ul li {
+  color: antiquewhite;
+}
+h3 {
+  color: antiquewhite;
 }
