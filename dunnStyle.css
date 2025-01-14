@@ -61,6 +61,7 @@ body {
   background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/detroit-lions-steven-parker.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: rgb(0,118,182);
 }
 
 .aboutMeInfo {
@@ -72,11 +73,21 @@ body {
   margin: 20px;
 }
 
+.aboutMeInfoHome{
+  font-size: 100px;
+  color:antiquewhite;
+  text-align: center;
+  background-color:rgb(0,118,182);
+
+}
+.aboutInfo{
+  color: black   ;
+}
 h2 {
   color: antiquewhite;
 }
 p {
-  color: antiquewhite;
+  color: 
 }
 ul li {
   color: antiquewhite;
