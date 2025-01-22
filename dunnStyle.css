@@ -33,11 +33,10 @@
 }
 
 .loFoot {
-  background-color: red;
+  background-color: rgb(2, 2, 127);
   position: fixed;
-  margin-top: ;
   width: 100%;
-  height: auto;
+  height: 25px;
   bottom: 0;
   clear: both;
   color: antiquewhite;
@@ -59,14 +58,14 @@
 body {
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: blue;
+  background-color: rgb(194, 77, 10);
 }
 
 .aboutMeInfo {
   background-color: rgb(204, 204, 10);
   width: auto;
   height: auto;
-  border: 15 px solid red;
+  /* border: 15 px solid red; */
   padding: 10px;
   margin: 20px;
 }
@@ -75,13 +74,15 @@ body {
   font-size: 100px;
   color: antiquewhite;
   text-align: center;
-  background-color: rgb(0, 118, 182);
 }
 .aboutInfo {
   color: black;
 }
 h2 {
-  color: antiquewhite;
+  color: blue;
+}
+h2{
+  color: antiquewhite !important;
 }
 
 ul li {
@@ -118,15 +119,15 @@ h3 {
   text-align: center;
 }
 
-.flex-container{
+.flex-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
 }
 
 .flex-container > div > img {
-width:175px ;
-height: 150px;
+  width: 350px;
+  height: auto; 
 
 }
 
